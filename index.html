@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+            <title>Título da História</title>
+        </head>
+    <body>
+        <main>
+            <div class="passo ativo" id="passo-1">
+                <p>Uma menina queria adotar um cachorro. Como ela fará isso?</p>
+                <button class="btn-proximo" data-proximo="2A">Ir a um canil</button>
+                <button class="btn-proximo" data-proximo="2B">Adotar da rua</button>
+            </div>
+            
+            <div class="passo" id="passo-2A">
+                <p>Escolher entre duas raças de cachorro:</p>
+                <button class="btn-proximo" data-proximo="3A">Shih Tzu</button>
+                <button class="btn-proximo" data-proximo="3B">Dachshund</button>
+            </div>
+            
+            <div class="passo" id="passo-2B">
+                <p>Escolher entre dois cachorros:</p>
+                <button class="btn-proximo" data-proximo="3C">Pegar um cachorro caramelo</button>
+                <button class="btn-proximo" data-proximo="3D">Pegar um vira-lata</button>
+            </div>
+            
+            <div class="passo" id="passo-3A">
+                <p>Escolher entre dois caminhos para o Shih Tzu:</p>
+                <button class="btn-proximo" data-proximo="4A">Dar um prato especial de comida</button>
+                <button class="btn-proximo" data-proximo="4B">Escolher outro brinquedo que se pareça com o Shih Tzu</button>
+            </div>
+            
+            <div class="passo" id="passo-3B">
+                <p>Dar um brinquedo que se pareça com o Dachshund e continuar a cuidar dele.</p>
+                <button class="btn-proximo" data-proximo="final1">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-3C">
+                <p>Escolher entre dois caminhos para o cachorro caramelo:</p>
+                <button class="btn-proximo" data-proximo="4C">Colocar uma fita azul no cachorro</button>
+                <button class="btn-proximo" data-proximo="4D">Colocar uma fita vermelha no cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-3D">
+                <p>Se adaptar à nova rotina e criar laços com o vira-lata.</p>
+                <button class="btn-proximo" data-proximo="final2">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-4A">
+                <p>Você deu um prato especial de comida para o Shih Tzu, e ele adorou. Vocês agora têm uma rotina feliz juntos.</p>
+                <button class="btn-proximo" data-proximo="final1">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-4B">
+                <p>Você escolheu um novo brinquedo para o Shih Tzu, e ele está muito feliz brincando com ele.</p>
+                <button class="btn-proximo" data-proximo="final1">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-4C">
+                <p>Você colocou uma fita azul no cachorro caramelo, e ele parece adorá-la. Vocês vivem felizes juntos.</p>
+                <button class="btn-proximo" data-proximo="final1">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="passo-4D">
+                <p>Você colocou uma fita vermelha no cachorro caramelo, e ele está muito fofo. Vocês têm uma ótima vida juntos.</p>
+                <button class="btn-proximo" data-proximo="final1">Viver feliz com o cachorro</button>
+            </div>
+            
+            <div class="passo" id="final1">
+                <p>Você vive feliz pelo resto da vida com seu cachorro.</p>
+            </div>
+            
+            <div class="passo" id="final2">
+                <p>Você se adaptou à nova vida com o cachorro e vive feliz com ele pelo resto da sua vida.</p>
+            </div>
+            
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
